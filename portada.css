@@ -25,6 +25,8 @@ body{
     height: 85px;
     padding: 5px 10%;
     background-color:rgb(10, 133, 217);
+    position: sticky;
+    top: 0;
 }
 .nav .logo{
     cursor: pointer;
