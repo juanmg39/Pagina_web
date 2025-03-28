@@ -253,3 +253,61 @@ section .card p{
     margin-bottom: 10px;
     font-size: 20px;
   }
+
+
+/*   reposive (parte para que se adapte) */
+
+@media (max-width: 300px) and (max-width: 766px){
+    header{
+        width: 100%;
+    }
+
+}
+@media (max-widh: 767px){
+
+
+    }
+
+
+
+@media (max-width: 768px) and (max-width: 990px){
+    header{
+        text-align: center;
+        width: 100%;
+       }
+    
+       header .boton{
+        margin-top: 20px;
+       }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+        height: 100%;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .acerca{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    article .acerca h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2px;
+    }
+    article .img{
+        width: 100%;
+
+    }
+    
+}
+@media (max-widh: 991px){
+
+}
