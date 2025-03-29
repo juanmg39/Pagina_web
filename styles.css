@@ -88,18 +88,29 @@ header{
 
 }
 header h1{
+    font-size: 60px;
+    color: rgb(131, 197, 255);
+   /*  font-family: 'Courier New', Courier, monospace; */
+}
+/* .titulo{
+    background-color: chartreuse;
+    max-width: 100%;
+}
+.titulo h1{
     color: rgb(131, 197, 255);
     font-size: 60px;
+    max-width: auto;
+
     font-family: 'Courier New', Courier, monospace;
-}
+} */
 .boton{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     /* background-color: blueviolet; */
-    width: 900px;
-    height: max-content;
+    max-width: 900px;
+    height: max-content;    /*  corregir */
 }
 header button{
     flex-direction: row;
@@ -113,11 +124,13 @@ header button{
     padding: 4px;
     cursor: pointer;
     transition: .3s;
-    margin-left: 10px;
+    margin: 20px 9px;
+    box-sizing: border-box;
+   /*  margin-left: 6px; */
 }
 button span{
     background-color: black;
-    padding: 9px 24px;
+    padding: 9px 17px;
     border-radius: 6px;
     transition: .3s;
 }
@@ -155,8 +168,8 @@ section{
 /*     border: solid #BC4749 2px; */
 }
 section .card{
-    width: 430px;
-    height: 330px;
+/*     width: 430px;
+    height: 330px; */
     border-radius: 8px;
     box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
     overflow: hidden;
@@ -257,12 +270,6 @@ section .card p{
 
 /*   reposive (parte para que se adapte) */
 
-@media (max-width: 300px) and (max-width: 766px){
-    header{
-        width: 100%;
-    }
-
-}
 @media (max-widh: 767px){
 
 
@@ -270,7 +277,13 @@ section .card p{
 
 
 
-@media (max-width: 768px) and (max-width: 990px){
+@media (width < 900px) {
+/*     html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    } */
     header{
         text-align: center;
         width: 100%;
@@ -308,6 +321,6 @@ section .card p{
     }
     
 }
-@media (max-widh: 991px){
+@media (widh < 991px){
 
 }
