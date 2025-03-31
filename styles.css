@@ -281,12 +281,12 @@ section .card p{
 
 
 @media (width < 900px) {
-/*     html{
+    html{
         overflow-x: hidden;
     }
     body{
         overflow-x: hidden;
-    } */
+    }
     header{
         text-align: center;
         width: 100%;
@@ -333,3 +333,5 @@ section .card p{
 /* @media (widh < 991px){
 
 } */
+    
+}
