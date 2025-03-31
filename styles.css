@@ -88,7 +88,6 @@ header{
 
 }
 header h1{
-    min-width: 100%;
     font-size: 60px;
     color: rgb(131, 197, 255);
    /*  font-family: 'Courier New', Courier, monospace; */
@@ -128,6 +127,9 @@ header button{
     margin: 20px 9px;
     box-sizing: border-box;
    /*  margin-left: 6px; */
+}
+.boton a{
+    text-decoration: none;
 }
 button span{
     background-color: black;
@@ -320,6 +322,12 @@ section .card p{
         width: 100%;
 
     }
+    .enlace{
+        display: none;
+    }
+    .logo{
+        min-width: 100%;
+        text-align: center;
     
 }
 /* @media (widh < 991px){
