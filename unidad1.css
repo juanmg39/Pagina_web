@@ -1,0 +1,286 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    background-color:rgb(10, 133, 217);
+    position: sticky;
+    top: 0;
+}
+.nav .logo{
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+}
+.nav .logo span{
+    margin-left: 2px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    height: 70px;
+    width: auto;
+}
+.nav .enlace{
+    list-style: none;
+}
+.nav .paginas li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav .paginas li:hover{
+    transform: scale(1.1);
+
+}
+.nav .paginas li a:hover{
+    color: #000000;
+}
+.nav .paginas a{
+    font-size: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.pg{
+  /*   background-color: brown; */
+    max-width: 100%;
+}
+.pg img
+{
+    width: 500px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    height: 450px;
+}
+header{
+    background-color: #cc00ff;
+    height: 88vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: #286bcf solid 7px; */
+}
+header h1{
+    font-size: 120px;
+}
+main{
+ /*    background-color: #cc00ff; */
+    display: flex;
+    width: auto;
+    height: 80vh;
+    margin: 40px 130px;
+    border: #286bcf solid 2px;
+}
+.multimedia{
+    width: 50%;
+    height: 70%;
+    font-size: 30px;
+    padding: 40px 40px;
+}
+.multimedia h1{
+    margin-bottom: 30px;
+}
+.m_img{
+    width: 50%;
+    height: 100%;
+    margin-top: 20vh;
+}
+.m_img img{
+    width: 100%;
+}
+
+section{
+/*     width: 100%;
+    height: auto; */
+    max-width: 100% ;
+    border: #286bcf solid 2px;
+    margin: 40px 130px;
+
+}
+section .tittle{
+    width: 100%;
+    font-size: 50px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+section .tipo_video{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+
+           height: auto;
+    }
+.tipo_video .tipo_1{
+    background-color: #cc00ff;
+    width: 30%;
+    margin: 18px;
+
+    height: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    background: #286bcf;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .menu-elem {
+    list-style: none;
+  }
+  .menu-icon {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .menu-icon:hover {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+  @media (width < 900px){
+    header{
+        width: 100%;
+        /* margin-top: 20px; */
+        height: 90vh;
+    }
+    .pg{
+        height: 80vh;
+        width: 100%;
+/*         margin-top: -110px; */
+    }
+    .pg img{
+        height: 400px;
+        width: 400px;
+    }
+    .pg h1{
+        font-size: 70px;
+    }
+  }
+  @media (width < 400px){
+    header{
+        height: 70vh;
+        background-color: blueviolet;
+    }
+.logo{
+    width: 100%;
+        text-align: center;
+    }
+    .nav .enlace{
+       display: none;
+    }
+    .pg img{
+        width: 350px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .pg h1{
+        margin-top: 30px;
+    }
+
+  }

@@ -20,8 +20,9 @@
     height: 85px;
     padding: 5px 10%;
     background-color:rgb(10, 133, 217);
-/*     position: sticky; */
+    position: sticky;
     top: 0;
+    z-index: 100;
 }
 .nav .logo{
     cursor: pointer;
