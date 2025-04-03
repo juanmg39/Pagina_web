@@ -158,8 +158,13 @@ article{
     width: 50%;
 }
 .img{
+    background-color: aquamarine;
     width: 50%;
     /* background-color: chocolate; */
+}
+.img .vd{
+    width: 100%;
+    height: 100%;
 }
 section{
     height: 430px;
@@ -200,6 +205,7 @@ section .card p{
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300px;
+    height: 100%;
 }
 .footer {
     position: relative;

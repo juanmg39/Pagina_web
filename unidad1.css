@@ -123,14 +123,34 @@ section .tipo_video{
            height: auto;
     }
 .tipo_video .tipo_1{
-    background-color: #cc00ff;
     width: 30%;
     margin: 18px;
-
-    height: 40vh;
+    text-align: center;
+    border: #286bcf solid 3px;
+    height: 45vh;
 }
+.tipo_1 .image{
+/*     background-color: #cc00ff; */
+    padding-top: 11px;
+    height: 60%;
+}
+.tipo_1 .image img{
+    width: 170px;
 
-
+}
+.tipo_1 .info{
+/*   background-color: #9dc4ff; */
+    width: 100%;
+    height: 40%;
+/*       margin-top: 11px;  */
+}
+.info h1{
+    padding-top: 11px;
+/*     margin-top: 20px; */
+}
+.info p{
+    margin-top: 11px;
+}
 
 
 
